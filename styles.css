@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  padding: 40px;
+}
+img {
+  padding: 20px;
+  width: 300px;
+}
+.img-earth {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+/* Header */
+header {
+  padding: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+}
+.header-flex {
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Hover Countries */
+.header-flex:hover {
+}
+/* Main Container, contains nav & main content */
+.main-container {
+  display: flex;
+  flex: 1; /* Ensures the main content takes up available space */
+}
+/* Navbar div */
+.nav {
+  background-color: darkgoldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+li {
+  font-size: 20px;
+  color: black;
+  padding: 20px;
+  list-style: none;
+}
+
+/* Hover navbar list*/
+li:hover {
+  text-align: center;
+  background-color: rgb(172, 187, 185);
+  border-radius: 20px 10px;
+  gap: 50px;
+}
+/* Main Content div */
+.main-content {
+  background-color: rgb(75, 144, 70);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer */
+footer {
+  background-color: black;
+}
+.footer-text {
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 30px;
+}
